@@ -1,0 +1,38 @@
+
+#container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#rollBtn {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #7667f8;
+    color: white;
+    cursor: pointer;
+}
+
+#rollBtn:hover {
+    background-color: #5f4be1;
+}
+
+input {
+    font-size: 2rem;
+    width: 25%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+#diceResult {
+    margin: 25px;
+}
+
+#diceImages img {
+    width: 100px;
+    margin: 5px;
+}

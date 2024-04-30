@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    <div id="temp_container">
+        <h1>Temperature Conversion:</h1>
+        <input type="number" id="tempInput" class="temp_input" placeholder="Temperature" >
+        <input type="number" id="resultOutput" class="temp_input" disabled><br>
+        <input type="radio" id="celsius"  name="unit" value="celsius">
+        <label for="celsius">Celsius &rarr; Fahrenheit</label><br>
+        <input type="radio" id="fahrenheit" name="unit" value="fahrenheit">
+        <label for="fahrenheit">Fahrenheit &rarr; Celsius</label><br>
+        <button id="convert" onclick="convertTemp()">Convert</button><br>
+        <p id="errorMessage"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

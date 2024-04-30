@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#counter {
+    text-align: center;
+    font-size: 10em;
+}
+
+#buttons {
+    text-align: center;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 1px 0;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
